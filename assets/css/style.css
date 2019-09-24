@@ -111,16 +111,13 @@
 }
 
 .portfolio-block.block-intro p {
-	font-family: Lato, sans-serif;
-	font-size: 1.5em;
-	font-weight: 300;
+	font: 300 1.5em Lato, sans-serif;
 	margin-bottom: 30px;
 }
 
 .portfolio-block.photography {
 	background-color: #232323;
-	padding-top: 0;
-	padding-bottom: 0;
+	padding: 0 0 0 0;
 }
 
 .portfolio-block.photography .item {
@@ -151,8 +148,7 @@
 
 .portfolio-block.call-to-action {
 	background-color: #232323;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding: 60px 0 60px 0;
 	color: white;
 }
 
@@ -171,10 +167,9 @@
 .page-footer {
 	background-color: #232323;
 	color: #232323;
-	padding-top: 35px;
+	padding: 35px 0 20px 0;
 	border-top: 1px solid #ddd;
 	text-align: center;
-	padding-bottom: 20px;
 }
 
 .page-footer a {
@@ -193,3 +188,6 @@ a:hover {
 	height: 342.5px;
 }
 
+#pic {
+	background-image: url("../../assets/img/avatar/IMG_3440.JPG");
+}
