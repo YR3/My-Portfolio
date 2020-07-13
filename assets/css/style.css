@@ -75,6 +75,16 @@
 	bottom: 4px;
 }
 
+.ctaButtonContact {
+	line-height: normal;
+	float: right;
+	margin: 8.7%;
+	padding: 7px 17px;
+	font-weight: 400;
+	font-size: 1rem;
+	border-radius: 2em;
+}
+
 .special-skill-item .icon {
 	text-align: center;
 	font-size: 50px;
